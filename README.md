@@ -1,0 +1,10 @@
+Arduino UNO 4 WiFiと 温湿度計 DHT11 を使って気温を測定し、WiFi でGoogleドキュメントにデータを飛ばして、積算温度を記録するアプリです。データはGoogle App Script (GAS)
+が受け取り、Googleドキュメントのシートに表示します。積算温度「は花房管理」シートに表示されます。開花したら開花日を入力してください。
+
+DHT11.pngにArduinoとDHT11との結線を表示しています
+
+TomatoTempManager.inoがArduinoのスケッチです。wifiのSSIDとパスワードGASのリンクを入力してください
+
+TomatoTempManager.xlsxがGoogleドキュメントのダウンロードしたファイルです
+
+TomatoTempManager.jsがGASのスクリプトです
